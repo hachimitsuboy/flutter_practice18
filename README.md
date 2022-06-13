@@ -1,16 +1,18 @@
 # dev_practice
 
-A new Flutter project.
+DevToolを簡単なアプリを通して触れていく
 
-## Getting Started
+## 主要な箇所
 
-This project is a starting point for a Flutter application.
+### OutLine
 
-A few resources to get you started if this is your first Flutter project:
+Flutter OutLineではコードを操作することなく、PaddingやColumn作成などを簡単に行え、コードを自動的に変更してくれる
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+###F Inspector
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter Inspectorでは、OutLineと同じようにアプリのWidgetをツリー構造で表示してくれる。
+また、それぞれのWidgetをタップすると、そのWidgetの高さや幅などが確認することができ、ColumnやRowでは、配置の仕方を変更できる
+
+### Performance
+
+Flutter Performanceではアプリのパフォーマンスを経過時間ごとで知ることができる。
